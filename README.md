@@ -10,7 +10,7 @@ saves the data to Firebase.
 Upload `photon.cpp` to your photon board, then connect a simple push switch using the D1 pin
 
 
-![1](http://i.imgur.com/w9qxyIF.png)
+![1](http://i.imgur.com/w9qxyIF.png | width=100)
 
 How the code works? when the button is pushed it's publish the value defined for the variable to the Particle API.
 
@@ -55,7 +55,7 @@ eventSource.addEventListener('btn_push', (e) => {
     // POST en la base da datos de Firebase
     firebase.database().ref("sensor/btn_push").set(parsedData)
 }, false)
-
+```
 
 
 ### Install dependencies
