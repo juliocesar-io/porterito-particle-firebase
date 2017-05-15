@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Porterito</title>
+    <script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
+    <script>
+      // Inicializar Firebase, crear un app y obtener credenciales en https://firebase.google.com
+      var config = {
+        apiKey: "--",
+        authDomain: "--",
+        databaseURL: "--",
+        storageBucket: "--",
+        messagingSenderId: "--"
+      };
+      firebase.initializeApp(config);
+    </script>
+<body>
+
+<div class="container main">
+    <div class="row">
+        <div style='text-align:center; padding-top:60px' class="col-md-12">
+          <h1 style="color:#11919b">Porterito</h1>
+          <br>
+          <img style="width: 300px;" src="ic_launcher.svg" alt="">
+          <p id='data'>Pulsa el boton para obtener resultados ..</p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="./bundle.js"></script>
+
+</body>
+
+</html>
