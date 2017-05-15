@@ -10,7 +10,7 @@ saves the data to Firebase.
 Upload `photon.cpp` to your photon board, then connect a simple push switch using the D1 pin
 
 
-<img src="http://i.imgur.com/w9qxyIF.png" width="550">
+<img src="http://i.imgur.com/w9qxyIF.png" width="400">
 
 How the code works? when the button is pushed it's publish the value defined for the variable to the Particle API.
 
