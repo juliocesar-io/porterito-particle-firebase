@@ -93,6 +93,8 @@ $ webpack
 $ node app/server.js
 ```
 
+Open in http://localhost:3006
+
 
 ## Extra
 
