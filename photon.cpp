@@ -16,7 +16,6 @@ void loop()
 
   if(pushButtonState == LOW)
   { // Si se pulsa el boton
-    digitalWrite(led, HIGH);
 
     if  (btn_state == 0) {
         btn_state = 1;

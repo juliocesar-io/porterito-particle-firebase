@@ -26,8 +26,6 @@ Set and publish the value when the button is pushed
 ```cpp
 if(pushButtonState == LOW){
 
-    digitalWrite(led, HIGH);
-
     if  (btn_state == 0) {
         btn_state = 1;
         Particle.publish("btn_push", String(btn_state));
